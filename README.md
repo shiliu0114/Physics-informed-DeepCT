@@ -11,7 +11,7 @@ Index Terms— Sparse-view CT, random mask, sinogram wavelet decomposition, diff
 
 ## Methond Overview
 <p align="center">
-  <img src="assets/performance_comparison.png" alt="Different training strategies and influence of sinogram in deeplearning." width="800">
+  <img src="assets/1.png" alt="Different training strategies and influence of sinogram in deeplearning." width="800">
   <br>
   <em>Figure 1: Different training strategies and influence of sinogram in deep learning. (a) Distribution of training data in a closed data space; (b) The distribution of the data obtained through the mask extension method in the extended data space; (c) The generation process of the random mask and how it is embedded in the data..</em>
 </p>
