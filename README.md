@@ -16,7 +16,42 @@ Index Terms— Sparse-view CT, random mask, sinogram wavelet decomposition, diff
   <em>Figure 1: Different training strategies and influence of sinogram in deep learning. (a) Distribution of training data in a closed data space; (b) The distribution of the data obtained through the mask extension method in the extended data space; (c) The generation process of the random mask and how it is embedded in the data..</em>
 </p>
 
+<p align="center">
+  <img src="assets/2.png" alt="The pipeline of SWARM training process and iterative reconstruction procedure. Training stage: (a) A model training based on random masks in sinogram." width="800">
+  <br>
+  <em>Figure 2: The pipeline of SWARM training process and iterative reconstruction procedure. Training stage: (a) A model training based on random masks in sinogram. (b) A model training for high-frequency random decomposition of wavelet based on sinogram. Iteration reconstruction stage: (c)The proposed SWARM method is used to reconstruct the sparse-view CT projection domain. “LF”: Low-frequency. “HF”: High-frequency.</em>
+</p>
 
+## Results
+<p align="center">
+  <img src="assets/3.png" alt="Reconstruction images from 90 views using different methods with AAPM challenge data." width="800">
+  <br>
+  <em>Figure 3: Reconstruction images from 90 views using different methods with AAPM challenge data. (a) The reference image versus the images reconstructed by (b) FBP, (c) FBPConvNet, (d) HDNet, (e) GMSD, (f) SWORD, and (g) SWARM. The display window is [-480, 945] HU. The second line is the residual between the reference image and the reconstructed image.</em>
+</p>
+
+<p align="center">
+  <img src="assets/4.png" alt="Reconstruction images from 60 views using different methods with CIRS phantom data.." width="800">
+  <br>
+  <em>Figure 4:Reconstruction images from 60 views using different methods with CIRS phantom data. (a) The reference image versus the images reconstructed by (b) FBP, (c) FBPConvNet, (d) HDNet, (e) GMSD, (f) SWORD, and (g) SWARM. The display window is [675, 1300] HU. The second line is the residual between the reference image and the reconstructed image.</em>
+</p>
+
+<p align="center">
+  <img src="assets/5.png" alt="Reconstruction images from 60 views using different methods with Dental Arch data." width="800">
+  <br>
+  <em>Figure 5: Reconstruction images from 60 views using different methods with Dental Arch data. (a) The reference image versus the images reconstructed by (b) FBP, (c) FBPConvNet, (d) HDNet, (e) GMSD, (f) SWORD, and (g) SWARM. The display window is [-60, 1300] HU. The second line is the residual between the reference image and the reconstructed image.</em>
+</p>
+
+<p align="center">
+  <img src="assets/6.png" alt="Reconstruction images from 90 views using different methods with Dental Arch data." width="800">
+  <br>
+  <em>Figure 6: Reconstruction images from 90 views using different methods with Dental Arch data. (a) The reference image versus the images reconstructed by (b) FBP, (c) FBPConvNet, (d) HDNet, (e) GMSD, (f) SWORD, and (g) SWARM. The display window is [-500, 970] HU. The second line is the residual between the reference image and the reconstructed image.</em>
+</p>
+
+<p align="center">
+  <img src="assets/7.png" alt="The intensity profiles of different methods along the specified yellow line in an example reconstructed image." width="800">
+  <br>
+  <em>Figure 7: The intensity profiles of different methods along the specified yellow line in an example reconstructed image.</em>
+</p>
 
 
 
